@@ -1,0 +1,48 @@
+.bill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  width: 311px;
+}
+
+.bill-amount {
+  height: 48px;
+  position: relative;
+  width: 100%;
+}
+
+.bill-amount input {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: right;
+  color: #00474b;
+  background: #f3f9fa;
+  padding-right: 17.48px;
+  padding-left: 35px;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.bill-amount input::placeholder {
+  font-size: 24px;
+  line-height: 36px;
+  color: #00474b;
+  mix-blend-mode: normal;
+  opacity: 0.35;
+}
+
+.bill-amount img {
+  position: absolute;
+  top: 16.87px;
+  left: 19.26px;
+  width: 9.84px;
+  height: 15.46px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .bill {
+    width: 379px;
+  }
+}

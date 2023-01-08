@@ -1,0 +1,26 @@
+.tip-percent-btn {
+  background: #00474b;
+  border-radius: 5px;
+  color: white;
+  width: 146.63px;
+  height: 48px;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.tip-percent-btn:hover {
+  background: #9fe8df;
+  color: #00474b;
+}
+
+#tipClicked {
+  background: #26c2ae;
+  color: #00474b;
+}
+
+@media only screen and (min-width: 1000px) {
+  .tip-percent-btn {
+    width: 117px;
+  }
+}

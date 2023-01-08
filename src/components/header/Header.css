@@ -1,0 +1,9 @@
+header {
+  padding: 50px 0px;
+}
+
+@media only screen and (min-width: 1000px) {
+  header {
+    padding: 7vh 0px 4vh 0px;
+  }
+}

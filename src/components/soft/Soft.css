@@ -1,0 +1,39 @@
+.soft {
+  background: #ffffff;
+  box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+  border-radius: 25px 25px 0px 0px;
+  margin: auto;
+  margin-top: -15px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+  width: 63%;
+  height: 100%;
+  min-width: 375px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .soft {
+    width: 920px;
+    height: 481px;
+    border-radius: 25px;
+    padding: 45px 32px 48px 48px;
+    gap: 48px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .information {
+    width: 379px;
+  }
+
+  .output {
+    width: 413px;
+    height: 417px;
+  }
+}

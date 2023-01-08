@@ -1,0 +1,29 @@
+.select-tip {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  width: 311px;
+}
+
+.tip-chooser {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16.56px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .select-tip {
+    width: 379px;
+    margin-top: 40px;
+  }
+  .tip-chooser {
+    justify-content: flex-start;
+    gap: 14px;
+    width: 100%;
+    flex-wrap: no-wrap;
+  }
+}

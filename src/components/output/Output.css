@@ -1,0 +1,18 @@
+.output-div {
+  width: 327px;
+  height: 257px;
+  background: #00474b;
+  border-radius: 15px;
+  padding: 14px 22px 24px 24px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .output-div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+  }
+}
