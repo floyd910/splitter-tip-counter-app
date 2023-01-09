@@ -23,7 +23,7 @@
   text-align: right;
   letter-spacing: -0.666667px;
   color: #26c2ae;
-  max-width: 100px;
+  max-width: 150px;
   overflow-x: auto;
 }
 
@@ -42,5 +42,8 @@
     font-size: 48px;
     line-height: 71px;
     letter-spacing: -1px;
+  }
+  .result-row td:nth-child(2) {
+    max-width: 200px;
   }
 }
