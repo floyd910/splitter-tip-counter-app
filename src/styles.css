@@ -24,6 +24,11 @@ input {
   border: 0;
   caret-color: #26c2ae;
   cursor: pointer;
+  padding-right: 8px !important;
+}
+
+input::placeholder {
+  margin-left: 4px;
 }
 
 /* Chrome, Safari, Edge, Opera */

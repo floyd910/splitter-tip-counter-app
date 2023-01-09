@@ -23,6 +23,18 @@
   text-align: right;
   letter-spacing: -0.666667px;
   color: #26c2ae;
+  max-width: 100px;
+  overflow-x: auto;
+}
+
+.result-row td:nth-child(2)::-webkit-scrollbar {
+  height: 2px;
+  background: #26c2ae;
+}
+
+.result-row td:nth-child(2)::-webkit-scrollbar-thumb {
+  background: #7f9d9f;
+  width: 2px;
 }
 
 @media only screen and (min-width: 1000px) {
