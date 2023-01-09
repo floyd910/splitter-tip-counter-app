@@ -23,6 +23,7 @@ button {
 input {
   border: 0;
   caret-color: #26c2ae;
+  cursor: pointer;
 }
 
 /* Chrome, Safari, Edge, Opera */

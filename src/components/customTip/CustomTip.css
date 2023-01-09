@@ -15,5 +15,6 @@
   .tip-chooser input {
     width: 118px;
     margin-left: -1px;
+    padding-right: 15px;
   }
 }
