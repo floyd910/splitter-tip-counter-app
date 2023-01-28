@@ -1,5 +1,5 @@
 .App {
-  font-family: "Space Mono", monospace;
+  font-family: "Space Mono";
   text-align: center;
 }
 
@@ -11,20 +11,46 @@
 
 body {
   overflow-x: hidden;
+  background: hsl(185, 41%, 84%);
 }
 
 button {
   cursor: pointer;
+  border: 0;
   background: transparent;
-  border: none;
 }
 
 input {
-  border: none;
-  background: transparent;
+  border: 0;
+  caret-color: #26c2ae;
 }
 
-button:focus,
-input:focus {
-  outline: none;
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input:focus,
+input:hover {
+  outline: 2px solid #26c2ae;
+}
+
+h2,
+h3,
+p,
+button,
+input {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5e7a7d;
 }
