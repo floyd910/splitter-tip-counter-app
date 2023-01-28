@@ -1,5 +1,6 @@
 .output-div {
-  width: 327px;
+  width: 100%;
+  max-width: 327px;
   height: 257px;
   background: #00474b;
   border-radius: 15px;
