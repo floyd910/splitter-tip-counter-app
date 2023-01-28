@@ -1,62 +1,39 @@
-.App {
-  font-family: "Space Mono";
-  text-align: center;
+.soft {
+  background: #ffffff;
+  box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+  border-radius: 25px 25px 0px 0px;
+  margin: auto;
+  margin-top: -15px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+  width: 63%;
+  height: 100%;
+  min-width: 375px;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@media only screen and (min-width: 1000px) {
+  .soft {
+    width: 920px;
+    height: 481px;
+    border-radius: 25px;
+    padding: 45px 32px 48px 48px;
+    gap: 48px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+  }
 
-body {
-  overflow-x: hidden;
-  background: hsl(185, 41%, 84%);
-}
+  .information {
+    width: 379px;
+  }
 
-button {
-  cursor: pointer;
-  border: 0;
-  background: transparent;
-}
-
-input {
-  border: 0;
-  caret-color: #26c2ae;
-  cursor: pointer;
-  padding-right: 8px !important;
-}
-
-input::placeholder {
-  margin-left: 4px;
-}
-
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type="number"] {
-  -moz-appearance: textfield;
-}
-
-input:focus,
-input:hover {
-  outline: 2px solid #26c2ae;
-}
-
-h2,
-h3,
-p,
-button,
-input {
-  font-family: "Space Mono";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  color: #5e7a7d;
+  .output {
+    width: 413px;
+    height: 417px;
+  }
 }
