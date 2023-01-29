@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 6px;
-  width: 311px;
+  width: 100%;
 }
 
 .tip-chooser {
@@ -13,6 +13,7 @@
   justify-content: center;
   align-items: center;
   gap: 16.56px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 1000px) {
