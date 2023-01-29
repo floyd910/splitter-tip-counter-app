@@ -14,6 +14,10 @@
   height: 100%;
 }
 
+.output{
+  width: 100%;
+}
+
 @media only screen and (min-width: 1000px) {
   .soft {
     width: 920px;
